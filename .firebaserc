@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "schedulerapp-7599c",
+    "deploy": "scheduler-db8e9"
+  }
+}
