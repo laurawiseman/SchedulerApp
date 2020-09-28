@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { SafeAreaView, StyleSheet, Text } from 'react-native';
 import CourseList from './components/CourseList';
 
-
 const Banner = ({title}) => (
   <Text style={styles.bannerStyle}>{title || '[loading...]'}</Text>
 );
