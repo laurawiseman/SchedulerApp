@@ -5,7 +5,7 @@ import CourseList from '../components/CourseList';
 import UserContext from '../UserContext';
 import CourseEditScreen from './CourseEditScreen';
 import CourseDetailScreen from './CourseDetailScreen';
-import { firebase } from '../firebase';
+import { firebase } from '../utils/firebase';
 
 const Banner = ({title}) => (
   <Text style={styles.bannerStyle}>{title || '[loading...]'}</Text>
